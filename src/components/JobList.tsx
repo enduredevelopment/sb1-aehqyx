@@ -1,7 +1,5 @@
-import { useState } from 'react';
 import { JobCard } from './JobCard';
 import { jobs } from '@/data/jobs';
-import { Job } from '@/types/job';
 import { useNavigate } from 'react-router-dom';
 
 interface JobListProps {
