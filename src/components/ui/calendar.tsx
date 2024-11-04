@@ -4,6 +4,7 @@ import { DayPicker } from 'react-day-picker';
 import { cn } from '@/lib/utils';
 import { buttonVariants } from '@/components/ui/button';
 
+// Define CalendarProps with children typed as React.ReactNode | undefined
 export type CalendarProps = React.ComponentProps<typeof DayPicker> & {
   children?: React.ReactNode;
 };
