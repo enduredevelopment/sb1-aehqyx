@@ -1,7 +1,6 @@
 import { Job } from '@/types/job';
-import { jobs } from '@/data/jobs';
 
-export const jobs: Job[] = [
+export const jobList: Job[] = [
   {
     id: 1,
     title: "Corporate Member",
@@ -81,3 +80,4 @@ export const jobs: Job[] = [
     applyUrl: "https://apply.amplifyrblx.uk/"
   }
 ];
+export { jobList as jobs };
